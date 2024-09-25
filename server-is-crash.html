@@ -1,22 +1,41 @@
-<a>サーバーがクラッシュしてしまったら、入りなおしましょう。サーバーの限界は40人です。それを突破する前に入りましょう。</a><h1>それでも無理な場合</h1><a>それでも無理なら、友達の視点を送ってもらって、それを見るのも、ありです。</a><h1>友達がサーバーにいない場合</h1><a>あきらめましょう。それか39人になるまで待ちましょう。</a>
+<div class="section">
+  <h1>サーバーがクラッシュしてしまったら</h1>
+  <a>サーバーがクラッシュしてしまったら、入りなおしましょう。サーバーの限界は40人です。それを突破する前に入りましょう。</a>
+</div>
+<div class="section">
+  <h1>それでも無理な場合</h1>
+  <a>それでも無理なら、友達の視点を送ってもらって、それを見るのも、ありです。</a>
+</div>
+<div class="section">
+  <h1>友達がサーバーにいない場合</h1>
+  <a>あきらめましょう。それか39人になるまで待ちましょう。</a>
+</div>
 <style>
-  h1 {
+  /* 見出しのスタイル */
+h1 {
   font-size: 24px;
   font-weight: bold;
   text-align: center; /* 見出しを中央揃え */
+  margin-bottom: 20px;
 }
 
+/* リンクのスタイル */
 a {
-  display: inline-block; /* ボタンのように表示 */
-  padding: 10px 20px;
-  background-color: #4CAF50; /* 緑色の背景 */
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
+  text-decoration: none; /* 下線を消す */
+  color: #007bff; /* リンクの色を青色に */
+  padding: 10px 20px; /* ボタン風にするための余白 */
+  border-radius: 5px; /* 角を丸くする */
+  background-color: #f0f0f0; /* 背景色 */
+  transition: background-color 0.3s; /* ホバー時の効果 */
 }
 
-p {
-  text-align: center; /* 段落を中央揃え */
-  line-height: 1.5; /* 行間を調整 */
+/* ホバー時のスタイル */
+a:hover {
+  background-color: #e0e0e0;
+}
+
+/* 各セクションを区切る */
+.section {
+  margin-bottom: 20px;
 }
 </style>
